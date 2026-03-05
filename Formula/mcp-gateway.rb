@@ -2,7 +2,7 @@ class McpGateway < Formula
   desc "Security proxy for Model Context Protocol (MCP) servers"
   homepage "https://github.com/itolosa/mcp-gateway"
   version "2026.03.05.6"
-  license "MIT"
+  license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
