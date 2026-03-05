@@ -1,22 +1,22 @@
 class McpGateway < Formula
   desc "Security proxy for Model Context Protocol (MCP) servers"
   homepage "https://github.com/itolosa/mcp-gateway"
-  version "2026.03.05.5"
+  version "2026.03.05.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.5/mcp-gateway-aarch64-apple-darwin.tar.gz"
-      sha256 "442da968fe4a24325191815c27ccb60d9a72790a8977556d4669d007082659a0"
+      url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.6/mcp-gateway-aarch64-apple-darwin.tar.gz"
+      sha256 "128a9f650459aca764ac90b4df74979a92121faae7cc3e0049e620b3572db1a7"
     else
-      url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.5/mcp-gateway-x86_64-apple-darwin.tar.gz"
-      sha256 "1943bab5dbb3b44fc0d9cc160b904e72e0506a3441bd21ee234fc3a171a94cb6"
+      url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.6/mcp-gateway-x86_64-apple-darwin.tar.gz"
+      sha256 "4e49274974b90ae36917b8c9fd1cbb7a05020da7ba042d9ff762beed2adbf68b"
     end
   end
 
   on_linux do
-    url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.5/mcp-gateway-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "0f9da6a434c4d11e106d32df2ef9d90d334c4c0873b02736cd230c2a0bda174e"
+    url "https://github.com/itolosa/mcp-gateway/releases/download/2026.03.05.6/mcp-gateway-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "45f324f9658a2dc6ada9d733e8bb5dcf68e0c4781a059790d575a130792e93dc"
   end
 
   def install
